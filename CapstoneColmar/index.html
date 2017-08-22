@@ -2,90 +2,88 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="icon" href="./resources/images/ic-logo.ico" type="image/x-icon">
     <link href="./resources/css/reset.css" rel="stylesheet" type="text/css">
     <link href="./resources/css/style.css" rel="stylesheet" type="text/css">
-    <!--<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,700,800|Roboto:400,500,700,900&amp;subset=latin-ext" rel="stylesheet">-->
     <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:400,500,700,800,900|Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet">
     <title>Colmar Academy</title>
   </head>
   <body>
-    <div class="header">
-      <div class="logo">
+    <header>
+      <div class="logo" role="banner">
         <img class="" src="./resources/images/ic-logo.svg" alt="Colmar Academy Logo">
         <p class="company"><strong>COLMAR</strong>ACADEMY</p>
       </div>
-      <div class="nav">
-        <nav>
-          <ul>
-            <li class="full-nav"><a href="#">On campus</a></li>
-            <li class="full-nav"><a href="#">Online</a></li>
-            <li class="full-nav"><a href="#">For Companies</a></li>
-            <li class="full-nav"><a href="#">Sign in</a></li>
-            <li class="mob-nav"><a href="#"><img src="./resources/images/ic-on-campus.svg" alt="On Campus"></a></li>
-            <li class="mob-nav"><a href="#"><img src="./resources/images/ic-online.svg" alt="Online"></a></li>
-            <li class="mob-nav"><a href="#"><img src="./resources/images/ic-login.svg" alt-"Login"></a></li>
+        <nav role="navigation">
+          <ul role="presentation">
+            <li class="full-nav"><a href="#" role="link">On campus</a></li>
+            <li class="full-nav"><a href="#" role="link">Online</a></li>
+            <li class="full-nav"><a href="#" role="link">For Companies</a></li>
+            <li class="full-nav"><a href="#" role="link">Sign in</a></li>
+            <li class="mob-nav"><a href="#" role="link"><img src="./resources/images/ic-on-campus.svg" alt="On Campus button"></a></li>
+            <li class="mob-nav"><a href="#" role="link"><img src="./resources/images/ic-online.svg" alt="Online button"></a></li>
+            <li class="mob-nav"><a href="#" role="link"><img src="./resources/images/ic-login.svg" alt-"Login button"></a></li>
           </ul>
         </nav>
-      </div>
-    </div>
+    </header>
 
 <!-- Main body -->
-<div class="main">
+<div class="main" role="presentation">
       <!-- Banner section -->
-    <div id="banner" class="container contrast">
-        <div class="img-content">
+    <div id="banner" class="container contrast" role="presentation">
+        <div class="img-content" role="presentation">
           <p><img class="sect-img" src="./resources/images/banner.jpg" alt=""><p>
         </div>
-        <div class="content">
-          <h1>Learn something new everyday</h1>
-          <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit.</h3>
-          <p class="btn"><a href="#">Start here</a></p>
+        <div class="content" role="presentation">
+          <h1 role="heading" aria-level="1">Learn something new everyday</h1>
+          <h3 role="heading" aria-level="3">Lorem ipsum dolor sit amet consectetur adipiscing elit.</h3>
+          <p class="btn"><a href="#" role="link">Start here</a></p>
         </div>
       </div>
 
       <!--Information section -->
 
-      <div id="information" class="container">
+      <div id="information" class="container" role="presentation">
 
-        <div class="img-content">
-          <p><img class="sect-img" src="./resources/images/information-main.jpg" alt=""></p>
-          <h2>It doesn't hurt to keep practicing</h2>
+        <div class="img-content" role="presentation">
+          <p><img class="sect-img" src="./resources/images/information-main.jpg" alt="Information Section header image"></p>
+          <h2 role="heading" aria-level="2">It doesn't hurt to keep practicing</h2>
           <p>&quot;Curabitur vitae libero in ipsum porttitor consequat.
             Aliquam et commodo lectus, nec consequat neque.
             Sed non accumsan urna. Phasellus sed consequat ex. tiam eget magna laoreet,
             efficitur dolor consequat, tristique ligula.&quot;</p>
-          <p>Emanuel, Sr Strategist at Hiring.com</p>
+          <p aria-label="Strategist">Emanuel, Sr Strategist at Hiring.com</p>
         </div>
 
-        <div id="info-sidebar" class="content">
-            <div class="info-grp">
-                <div id="orientationdate" class="info-sub">
+        <div id="info-sidebar" class="content" role="presentation">
+            <div class="info-grp" role="presentation">
+                <div id="orientationdate" class="info-sub" role="presentation">
                   <img class="info-img" src="./resources/images/information-orientation.jpg" alt="">
                   <img class="info-img-mob" src="./resources/images/information-orientation-mobile.jpg" alt="">
-                  <div class="info-text">
-                    <h3>Orientation date</h3>
+                  <div class="info-text" role="presentation">
+                    <h3 role="heading" aria-level="3">Orientation date</h3>
                     <p>Tue 10/11 &amp; Wed 10/12 8am-3pm</p>
-                    <p><a href="#">Read more</a></p>
+                    <p><a href="#" role="link">Read more</a></p>
                   </div>
                 </div>
 
-                <div id="ourcampus" class="info-sub">
+                <div id="ourcampus" class="info-sub" role="presentation">
                   <img class="info-img" src="./resources/images/information-campus.jpg" alt="">
                   <img class="info-img-mob" src="./resources/images/information-campus-mobile.jpg" alt="">
-                  <div class="info-text">
-                    <h3>Our campus</h3>
+                  <div class="info-text" role="presentation">
+                    <h3 role="heading" aria-level="3">Our campus</h3>
                     <p>Tue 10/11 &amp; Wed 10/12 8am-3pm</p>
-                    <p><a href="#">Read more</a></p>
+                    <p><a href="#" role="link">Read more</a></p>
                   </div>
                 </div>
 
-                <div id="guestlecture" class="info-sub">
+                <div id="guestlecture" class="info-sub" role="presentation">
                   <img class="info-img" src="./resources/images/information-guest-lecture.jpg" alt="">
                   <img class="info-img-mob" src="./resources/images/information-guest-lecture-mobile.jpg" alt="">
-                  <div class="info-text">
-                    <h3>Our guest lecture</h3>
+                  <div class="info-text" role="presentation">
+                    <h3 role="heading" aria-level="3">Our guest lecture</h3>
                     <p>Tue 10/11 &amp; Wed 10/12 8am-3pm</p>
-                    <p><a href="#">Read more</a></p>
+                    <p><a href="#" role="link">Read more</a></p>
                   </div>
                 </div>
 
@@ -95,82 +93,82 @@
       </div>
 
       <!-- Learning section -->
-      <div id="learning" class="container contrast">
-        <h2>Start Learning</h2>
-        <div class="courses">
-          <div class="course">
+      <div id="learning" class="container contrast" role="presentation">
+        <h2 role="heading" aria-level="2">Start Learning</h2>
+        <div class="courses" role="presentation">
+          <div class="course" role="presentation">
               <img class="course-img" src="./resources/images/course-software.jpg" alt="Software Course">
-              <h3 class="coursetext">Software engineering</h3>
-              <h4 class="coursetext">COURSES</h4>
+              <h3 class="coursetext" role="heading" aria-level="3">Software engineering</h3>
+              <h4 class="coursetext" role="heading" aria-level="4">COURSES</h4>
               <p class="coursetext">Web Development, Mobile Development, iOT, APIs</p>
           </div>
 
-          <div class="course">
+          <div class="course" role="presentation">
               <img class="course-img" src="./resources/images/course-computer-art.jpg" alt="Computer art courses">
-              <h3 class="coursetext">Computer art</h3>
-              <h4 class="coursetext">COURSES</h4>
+              <h3 class="coursetext" role="heading" aria-level="3">Computer art</h3>
+              <h4 class="coursetext" role="heading" aria-level="4">COURSES</h4>
               <p class="coursetext">Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects, Computer Animation</p>
 
           </div>
 
-          <div class="course">
+          <div class="course" role="presentation">
               <img class="course-img" src="./resources/images/course-design.jpg" alt="Design Courses">
-              <h3 class="coursetext">Design</h3>
-              <h4 class="coursetext">COURSES</h4>
+              <h3 class="coursetext" role="heading" aria-level="3">Design</h3>
+              <h4 class="coursetext" role="heading" aria-level="4">COURSES</h4>
               <p class="coursetext">User Experience Design, User Research, Visual Design</p>
 
           </div>
 
-          <div class="course">
+          <div class="course" role="presentation">
               <img class="course-img" src="./resources/images/course-data.jpg" alt="Data Courses">
-              <h3>Data</h3>
-              <h4>COURSES</h4>
-              <p>Data Science, Big Data, SQL, Data Visualization</p>
+              <h3 class="coursetext" role="heading" aria-level="3">Data</h3>
+              <h4 class="coursetext" role="heading" aria-level="4">COURSES</h4>
+              <p  class="coursetext">Data Science, Big Data, SQL, Data Visualization</p>
           </div>
 
-          <div class="course">
+          <div class="course" role="presentation">
               <img class="course-img" src="./resources/images/course-business.jpg" alt="Business Courses">
-              <h3>Business</h3>
-              <h4>COURSES</h4>
-              <p>Product Development, Business Development, Startup</p>
+              <h3 class="coursetext" role="heading" aria-level="3">Business</h3>
+              <h4 class="coursetext" role="heading" aria-level="4">COURSES</h4>
+              <p  class="coursetext">Product Development, Business Development, Startup</p>
           </div>
 
-          <div class="course">
+          <div class="course" role="presentation">
               <img class="course-img" src="./resources/images/course-marketing.jpg" alt="Marketing Courses">
-              <h3>Marketing</h3>
-              <h4>COURSES</h4>
-              <p>Analytics, Content Marketing, Mobile Marketing</p>
+              <h3 class="coursetext" role="heading" aria-level="3">Marketing</h3>
+              <h4 class="coursetext" role="heading" aria-level="4">COURSES</h4>
+              <p  class="coursetext">Analytics, Content Marketing, Mobile Marketing</p>
           </div>
 
 
         </div>
       </div>
 
-      <div id="thesis" class="container">
-          <h2>Thesis exhibits</h2>
-          <div class="thesis">
-              <div class="img-content">
+      <div id="thesis" class="container" role="presentation">
+          <h2 role="heading" aria-level="2">Thesis exhibits</h2>
+          <div class="thesis" role="presentation">
+              <div class="img-content" role="presentation">
                 <video class="sect-vid" src="./resources/videos/thesis.mp4" alt="Thesis Video" controls="Yes" autoplay="yes"/>
-                <h3>Reimagine urban</h3>
+                <h3 role="heading" aria-level="3">Reimagine urban</h3>
                 <p>&quot;Curabitur vitae libero in ipsum porttitor consequat.
                   Aliquam et commodo lectus, nec consequat neque.
                   Sed non accumsan urna. Phasellus sed consequat ex. tiam eget magna laoreet,
                   efficitur dolor consequat, tristique ligula.&quot;</p>
               </div>
-              <div class="content">
-                  <div class="thesis-grp">
-                      <div id="fisma" class="thesis-sub">
+              <div class="content" role="presentation">
+                  <div class="thesis-grp" role="presentation">
+                      <div id="fisma" class="thesis-sub" role="presentation">
                         <img class="thesis-img" src="./resources/images/thesis-fisma.jpg" alt="Thesis Fisma">
-                        <div class="thesis-text">
-                          <h3>Fisma: Design and Prototype</h3>
+                        <div class="thesis-text" role="presentation">
+                          <h3 role="heading" aria-level="3">Fisma: Design and Prototype</h3>
                           <p>Designer showcase of new prototype product</p>
                         </div>
                       </div>
 
-                      <div id="nowandthen" class="thesis-sub">
+                      <div id="nowandthen" class="thesis-sub" role="presentation">
                         <img class="thesis-img" src="./resources/images/thesis-now-and-then.jpg" alt="Thesis Now and Then">
-                        <div class="thesis-text">
-                          <h3>Now and then</h3>
+                        <div class="thesis-text" role="presentation">
+                          <h3 role="heading" aria-level="3">Now and then</h3>
                           <p>Research study about New York</p>
                         </div>
                       </div>
@@ -179,9 +177,11 @@
           </div>
       </div>
 </main>
-      <div class="footer container">
+      <footer class="container" role="presentation">
+
         <p>&copy;2016 Colmar Academy. All rights reserved</p>
-        <p><a href="#">Terms</a><a href="#">Privacy</a></p>
-      </div>
+        <p><a href="#" role="link">Terms</a><a href="#" role="link">Privacy</a></p>
+
+    </footer>
   </body>
 </html>

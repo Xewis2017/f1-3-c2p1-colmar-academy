@@ -49,7 +49,7 @@ body {
 
 /* header */
 
-.header {
+header {
   position: fixed;
   display: flex;
   width: 80%;
@@ -79,31 +79,31 @@ body {
   color: #626369;
 }
 
-.nav {
+nav {
   padding: 0 24px;
 }
 
-.nav ul {
+nav ul {
   display: flex;
 
 }
-.nav li {
+nav li {
   padding: 8px;
 }
 
-.nav a {
+nav a {
     color: #9294A0;
     text-decoration: none;
     transition: color 400ms 200ms ease-out,
       background-color 400ms 200ms ease-out;
 }
 
-.nav a:hover {
+nav a:hover {
   background-color: #9e90b6;
   color: white;
 }
 
-.nav a:visited {
+nav a:visited {
   color: #413c4a;
 }
 
@@ -363,7 +363,7 @@ body {
 
 /*#### Footer Section #####*/
 
-.footer {
+footer {
   display: flex;
   margin: 0;
   justify-content: space-between;
@@ -372,19 +372,19 @@ body {
 
 }
 
-.footer p {
+footer p {
     padding: 16px 24px;
 
 }
 
-.footer a {
+footer a {
   padding: 16px;
   text-decoration: none;
   transition: color 400ms 200ms ease-out,
       text-decoration  400ms 200ms ease-out;
 }
 
-.footer a:hover {
+footer a:hover {
   color: #9e90b6;
   font-weight: 600;
   text-decoration: underline;
@@ -414,11 +414,11 @@ body {
     font-size: 0.7rem;
   }
 
-  .content p, .thesis-text p, .course p, .info-text p, .img-content p, .footer p {
+  .content p, .thesis-text p, .course p, .info-text p, .img-content p, footer p {
     font-size: 0.7rem;
   }
 
-  .nav a {
+  nav a {
     font-size: 0.8rem;
   }
 
@@ -428,7 +428,7 @@ body {
 
 @media only screen and (max-width: 560px) and (orientation: portrait)  {
 
-  .header, .container {
+  header, .container {
     width: 100%;
   }
 
@@ -546,11 +546,11 @@ body {
 /* ### Hide Thesis elements ###*/
   #thesis .img-content h3,
     #thesis .content,
-      .footer a  {
+      footer a  {
     display: none;
   }
 
-  .footer {
+  footer {
     width: 100%;
     margin-top: 24px;
   }
